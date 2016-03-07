@@ -1,0 +1,62 @@
+tfidf is the weighting scheme described in the powerpoint slides.It calculates the tf/max tf of each term per document. The idf is just log(N/n). The query weight is the the same as the document weight. We normalize the dot products by dividing by the lengths of the vector of document and of the query. 
+
+nxx bpx weighs the document frequency slightly differently. It smooths the weight of the terms by multiplying the tf by .5 and dividing by max tf. It then adds a constant .5. It also does not normalize the vector by dividing by lengths. 
+The query weight is slightly changed because its idf is log((N-n)/n) instead of just log(N/n)
+
+
+
+tfidf for both
+865 relevant queries in reljudge
+
+Top 10
+Precision
+219 relevant/ 1250 retrieved = 17.52%
+Recall
+219/865 = 25.31%
+
+Top 50
+Precision
+444 relevant / 6250 retrieved = 7.1%
+Recall
+444/865 = 51.33%
+
+Top 100
+Precision
+547 relevant / 12500 retrieved = 4.38%
+Recall
+547/865 = 63.24%
+
+Top 500
+Precision
+745 relevant / 60484 retrieved = 1.23%
+Recall
+745/865 = 86.12%
+
+nxx bpx
+
+Top 10
+Precision
+213/1250 = 17.04%
+Recall
+213/865 = 24.62%
+
+Top 50
+Precision
+430/6250 = 6.88%
+Recall
+430/865 = 49.71%
+
+Top 100 
+Precision
+538/12500 = 4.30%
+Recall 
+538/865 = 62.20%
+
+Top 500
+Precision
+740/60484 = 1.22%
+Recall
+740/865 = 85.55%
+
+
+The tfidf weighting scheme provides better results for all possible rankings. It is only slightly better for top 10 and top 500, but it seems to be noticeably better for 50 and 100. tfidf is likely better because we normalize the dot products in the tfidf but don't do it for the nxx bpx. The smoothing method for the document weight probably doesn't help weigh the document any more accurately and might make it less accurate. 

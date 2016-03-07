@@ -1,0 +1,14 @@
+M
+4
+2
+//sample M mode input file with two 4x4 farms
+//farm 0
+....
+#...
+.#..
+#...
+//farm 1
+.B..
+....
+...S
+#.<#

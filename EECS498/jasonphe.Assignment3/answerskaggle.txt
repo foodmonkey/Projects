@@ -1,0 +1,5 @@
+Jason He
+jasonphe
+1. I used the Naive Bayes classifier that I used for part 1 with some slight modifications.I calculate the counts of every word in each of the two classes by using the training data. I then calculate the probabilities of every word appearing in each class using Naive Bayes and save it into two dictionaries. For each unique word in the test file, I add the logs of the probability of the words together and compare whether it is larger for the jokes or for the mix. I initially only used half the training data and didnt remove stopwords. I did use the porter stemming though. 76.833% accuracy
+2. I simply used the entirety of the training data and removed stopwords. 79.833%
+3. This method is nearly same as the previous one. It uses the entirety of training data, porter stemming, and removes stopwords. I added a small change in the tokenizer to remove periods from strings. 80.533%

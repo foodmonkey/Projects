@@ -1,0 +1,16 @@
+Quiver_Capacity: 15
+Random_Seed: 2049231
+Max_Rand_Distance: 5000
+Max_Rand_Speed: 100
+Max_Rand_Health: 3
+Player_Health: 20
+---
+Round: 1
+Num_Zombies: 100
+15 3 3 Zombine
+4 1 1 Zombone
+100 1 2 DocZom
+---
+Round: 2
+Num_Zombies: 50
+20 10 4 MrBonyPants

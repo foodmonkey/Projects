@@ -1,0 +1,29 @@
+Jason He
+jasonphe
+1. 83.673%
+2. 81.12%
+3. 87.24%
+4. 83.16%
+lies top 10 words
+1.and
+2.to
+3.is
+4.I
+5.a
+6.the
+7.She
+8.she
+9.of
+10.always
+
+true top 10 words
+1.and
+2.I
+3.to
+4.is
+5.the
+6.we
+7.a
+8.me
+9.my
+10.of

@@ -1,0 +1,73 @@
+Jason He
+jasonphe
+
+Total num words: 148233
+Vocabulary Size: 11592
+Frequent words: 
+('flow', 1954)
+('number', 1333)
+('pressur', 1304)
+('result', 1085)
+('effect', 985)
+('boundari', 924)
+('method', 880)
+('theori', 865)
+('layer', 855)
+('solut', 843)
+('mach', 809)
+('equat', 774)
+('bodi', 735)
+('us', 730)
+('wing', 707)
+('present', 697)
+('heat', 681)
+('surfac', 659)
+('obtain', 641)
+('distribut', 638)
+('shock', 609)
+('problem', 586)
+('were', 582)
+('temperatur', 578)
+('ratio', 576)
+('veloc', 551)
+('approxim', 550)
+('calcul', 549)
+('case', 540)
+('investig', 523)
+('j.', 519)
+('given', 518)
+('test', 516)
+('condit', 515)
+('these', 499)
+('plate', 489)
+('ha', 480)
+('valu', 476)
+('experiment', 468)
+('superson', 462)
+('made', 449)
+('gener', 448)
+('measur', 427)
+('rang', 426)
+('angl', 425)
+('found', 424)
+('wave', 416)
+('speed', 413)
+('can', 412)
+
+Minimum num words for 25%: 2 words
+
+Two subsets:
+num words = 93271 
+vocab = 9032
+
+num words = 52133
+vocab = 6479
+
+Beta = .5
+K = 30
+
+Vocabulary
+(1x10^6)^.5 * 30 = 30000
+(1x10^9)^.5 * 30 = 948683
+
+
